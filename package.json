@@ -1,0 +1,26 @@
+{
+  "name": "expressweb",
+  "version": "1.0.0",
+  "homepage": "https://jeelam25.github.io/WeatherApp",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
+    "start": "node src/app.js",
+    "build": "react-scripts build",
+    "eject": "react-scripts eject",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "chandra sekhar web",
+  "license": "ISC",
+  "dependencies": {
+    "Build": "^0.0.1-dev",
+    "express": "^4.18.2",
+    "gh-pages": "^6.1.1",
+    "hbs": "^4.2.0",
+    "hds": "^0.6.3",
+    "nodemon": "^3.0.2"
+  }
+}
